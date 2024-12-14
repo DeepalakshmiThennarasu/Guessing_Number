@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(guessno.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+#game-container {
+
+   
+    width: 500px;
+    height: 350px;
+    text-align: center; 
+    margin: 0 0 0 auto;
+    background: #476c8f;
+    color: rgb(247, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+#game-container h1
+{
+ color: #ebd93e;
+}
+#timer,
+#best-score {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #ebd93e;
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e20c0c;
+    color: white;
+}

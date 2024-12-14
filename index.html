@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/logo1.png" >
+    <title>Guessing Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Guessing Number Game</h1>
+        <div id="timer">Time: 0s</div>
+        <div id="best-score">Best Score: None</div>
+        <button id="new-game">New Game</button>
+        <div id="game" style="display: none;">
+            <p>Guess the 4-digit number:</p>
+            <input type="number" id="user-guess" min="1000" max="9999" required>
+            <button id="submit-guess">Submit Guess</button>
+            <p id="feedback"></p>
+            <p id="moves">Moves: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
